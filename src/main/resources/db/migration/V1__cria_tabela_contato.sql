@@ -1,0 +1,10 @@
+CREATE TABLE contato(
+   id BIGINT(20) NOT NULL AUTO_INCREMENT,
+   name VARCHAR(255) NOT NULL,
+   address VARCHAR(100) NOT NULL,
+   type_email VARCHAR(150) NOT NULL,
+   type_number VARCHAR(150) NOT NULL,
+   number VARCHAR(20) NOT NULL,
+
+   PRIMARY KEY(id)
+)
